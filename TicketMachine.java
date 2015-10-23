@@ -30,6 +30,9 @@ public class TicketMachine
         total = 0;
     }
 
+    
+    
+
     /**
      * Return the price of a ticket.
      */
@@ -83,4 +86,9 @@ public class TicketMachine
     {
         price = precioDelBillete;
     }    
+   
+    public void prompt()
+    {
+        System.out.println("Please,insert the correct amount of money");
+    }
 }
