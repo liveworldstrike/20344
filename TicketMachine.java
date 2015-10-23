@@ -91,4 +91,9 @@ public class TicketMachine
     {
         System.out.println("Please,insert the correct amount of money");
     }
+    
+    public void showPrice()
+    {
+       System.out.println("The price of the ticket is " + price + " cents.");
+    }
 }
