@@ -11,7 +11,7 @@
  */
 public class TicketMachine
 {
-    // The price of a ticket from this machine.
+    // The pr ice of a ticket from this machine.
     private int price;
     // The amount of money entered by a customer so far.
     private int balance;
@@ -75,4 +75,12 @@ public class TicketMachine
         // Clear the balance.
         balance = 0;
     }
+    
+    /**
+     * Fija el precio del billete a un precio dado.
+     */
+    public void setprice(int precioDelBillete)
+    {
+        price = precioDelBillete;
+    }    
 }
